@@ -3,9 +3,13 @@
 Hi there! I'm Gokul, a passionate developer from Salem, Tamil Nadu. I specialize in building both user-friendly web applications and real-time embedded systems. I love solving real-world problems with innovative solutions and continuously learning to improve my craft.
 
 🚀 About Me
+
 Frontend Development: I craft elegant and intuitive digital experiences using technologies like HTML, CSS, JavaScript, and modern frameworks.
+
 Embedded Systems: I blend hardware with Embedded C and Arduino to build real-time products like home automation systems and accident detection systems.
+
 Full-Stack Developer in progress: Continuously expanding my knowledge to become a well-rounded developer.
+
 Interests: Building affordable solutions for real-world problems, web development, and hardware prototyping.
 
 🛠️ Tech Stack
