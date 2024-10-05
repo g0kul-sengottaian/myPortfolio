@@ -1,0 +1,272 @@
+@import url(https://db.onlinewebfonts.com/c/efc5d27fcf85239bbfee077b689e3ac9?family=Averta+ExtraBold);
+@import url(https://db.onlinewebfonts.com/c/72c7ac38d5196bb258b5de8ee05c5915?family=Next5);
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    width: 100%;
+}
+
+
+
+                        /* HEADER */
+.main-header
+{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    padding: 0 8rem;
+    background: transparent;
+    backdrop-filter: blur(10px);
+}
+nav
+{
+    width: 100%;
+    padding: 0 1rem;
+}
+
+.logo
+{
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    border-radius: 50%;
+}
+
+.nav .container
+{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0.8rem 2rem;
+	 font-size: 1.4rem;
+}
+
+.container ul li
+{
+    text-decoration: none;
+    list-style: none;
+}
+.container ul li a
+{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-family: "Averta ExtraBold";
+}
+.nav-list {
+	display: flex;
+	align-items: center;
+	gap: 5rem;
+}
+
+
+.line-cross-effect {
+    position: relative;
+    display: block;
+    cursor: pointer;
+  }
+  
+  .line-cross-effect:before, .line-cross-effect:after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    top: 50%;
+    margin-top: -0.5px;
+    background: #fff;
+  }
+  
+  .line-cross-effect:before {
+    left: -2.5px;
+  }
+  .line-cross-effect.line-cross-effect:after {
+    right: 2.5px;
+    background: #fff;
+    transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+  }
+  
+  .line-cross-effect:hover:before {
+    background: #7D5DFC;
+    width: 100%;
+    transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+  }
+  
+  .line-cross-effect:hover:after {
+    background: transparent;
+    width: 100%;
+    transition: 0s;
+  }
+
+             /* END - HEADER */
+
+            /* start - hero*/
+.hero {
+    padding: 0 1rem;
+    width: 100%;
+    height: 100vh;
+    background: #F4F6FA;
+}
+
+.hero .container{
+  text-align: left;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.subtitle
+{
+  font-family: "Next5";
+  font-size: 2.5rem;
+}
+
+.hero-name
+{
+  font-family: "Averta ExtraBold";
+  font-size: 64.25px;
+  margin-bottom: 5px;
+}
+
+.front-end
+{
+  font-family: "Next5";
+  font-size: 2.5rem;
+  display: inline;
+}
+.devicer {
+  width: 5em;
+  display: inline-block;
+  height: 3.5px;
+  background-color: #4b4b4d;
+  padding-bottom: 2px;
+  
+}
+
+.developer-color
+{
+  color: #7D5DFC;
+}
+.hero-welcome
+{
+  margin-top: 0px;
+  padding-top: 164.57px;
+}
+.intro-hirebtn{
+  margin-top: 20px;
+}
+.intro
+{
+  font-size: 1.5rem;
+  font-family: "Next5";
+}
+.hero-btn-container{
+  margin-top: 60px;
+}
+
+.hero-btn-container a {
+  transition: all .5s ease;
+  color: #000000;
+  border: 3px solid #010101;
+  font-family: "Next5";
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 15px;
+  background-color : transparent;
+  padding: 10px;
+  outline: none;
+  border-radius: 4px;
+  text-decoration: none;
+}
+.hero-btn-container a:hover {
+  color: #fff7f7;
+  background-color: #7D5DFC;
+  ;
+  transition: 0.5s;
+}
+
+.hero.container{
+  position: relative;
+}
+.pos{
+  position:absolute;
+}
+.position-github
+{
+  top: 11rem;
+  left: 13rem;
+}
+.position-google
+{
+  top: 22rem;
+  right: 10rem;
+}
+.position-linkedin
+{
+  top: 35rem;
+  right: 35rem;
+}
+.position-instagram
+{
+  top: 15rem;
+  right: 40rem;
+}
+
+
+.a-social {
+  position: relative;
+  width:60px;
+  height:60px;
+  display:block;
+  text-align:center;
+  margin:0 10px;
+  border-radius: 50%;
+  padding: 6px;
+  box-sizing: border-box;
+  text-decoration:none;
+  box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+  background: linear-gradient(0deg, #ddd, #fff);
+  transition: .5s;
+}
+
+.a-social:hover {
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  text-decoration:none;
+}
+
+.a-social .fab {
+  width: 100%;
+  height:100%;
+  display:block;
+  background: linear-gradient(0deg, #fff, #ddd);
+  border-radius: 50%;
+  line-height: calc(60px - 12px);
+  font-size:24px;
+  color: #262626;
+  transition: .5s;
+}
+
+
+.a-social:hover .fa-facebook{
+  color: #3b5998;
+}
+
+.a-social:hover .fa-google-plus-g {
+  color: #dd4b39;
+}
+
+.a-social:hover .fa-linkedin {
+  color: #007bb6;
+}
+
+.a-social:hover .fa-instagram {
+  color: #e4405f;
+}
+
+

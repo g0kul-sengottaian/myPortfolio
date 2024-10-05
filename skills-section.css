@@ -1,0 +1,77 @@
+.skill-section {
+  width: 100%;
+  height: 110vh;
+  border-bottom: 1px solid black;
+}
+
+.skill-container {
+  width: 100%;
+  height: 100vh;
+  padding: 0cm 3cm;
+}
+
+.skill-subtitle {
+  padding-top: 90px;
+  font-size: 25px;
+  font-family: "Next5";
+}
+.skill-title {
+  font-family: "Averta ExtraBold";
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.Front-End-Tools {
+  width: 100%;
+  padding: 0cm 4cm 0cm 4cm;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.img-fit {
+  width: 80px;
+  height: 70px;
+  object-fit: contain;
+  transition: transform 1s ease;
+}
+.img-fit:hover {
+  transform: rotateY(3.142rad);
+}
+.tech-name {
+  font-size: 25px;
+  font-family: "Next5";
+}
+.name {
+  font-size: 20px;
+  font-family: "Next5";
+}
+.box {
+  width: 140px;
+  height: 90px;
+}
+
+.glow {
+  text-decoration: none;
+  color: #18272f;
+  font-weight: 700;
+  position: relative;
+}
+
+.glow::before {
+  content: "";
+  background-color: #7d5dfc;
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  width: 100%;
+  height: 2px;
+  z-index: -1;
+  transition: all 0.3s ease-in-out;
+}
+
+.glow:hover::before {
+  bottom: 0;
+  height: 100%;
+}
